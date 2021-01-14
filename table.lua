@@ -8,5 +8,13 @@ while l do
 print(l.value)
 l=l.next
 end
+a =function  ()
+print(123)
+end
 
-table.insert()
+function list:a ()
+    print(self[2])
+    print(123)
+end
+
+print(list:a())
